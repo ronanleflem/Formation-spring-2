@@ -25,7 +25,7 @@ public class UserAPI {
     }
 
     @GetMapping("/getAllUsers")
-    public List<User> getAllUsers() {
+    public List<User> getAllUsers() {dzdzadd
         ResponseEntity<List<User>> response = restTemplate.exchange(
                 BASE_URL+ "/" +"user/getAllUsers",
                 HttpMethod.GET,
